@@ -1,6 +1,6 @@
 -- unified_ae2_monitor.lua
 local monitor = peripheral.find("monitor")
-local bridge = peripheral.find("meBridge")
+local bridge = peripheral.find("me_bridge")
 
 if not monitor then error("Monitor not found") end
 if not bridge then error("ME Bridge not found") end
